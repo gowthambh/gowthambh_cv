@@ -1,0 +1,140 @@
+%------------------------
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-1pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING----------------- 
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Gowtham B H}} & Email: \href{mailto:gowthambh9903@gmail.com}{gowthambh9903@gmail.com}\\
+  \href{https://www.linkedin.com/in/gowtham-b-h-42b502226/}{Linkedin: linkedin.com/in/gowtham-bh} & Mobile: +91-866-7781305\\
+  \href{https://github.com/gowthambh}{Github: github.com/gowtham-bh} & Chennai, Tamil Nadu\\
+\end{tabular*}
+
+%-----------ABOUT-----------------
+% About
+\vspace{-5pt}
+\section{About}
+\textbf{Certified Cloud Architect | IoT, Robotics Enthusiast | Tech Content Creator}\\
+\vspace{1pt}
+Google Cloud certified with expertise in IoT, Arduino, AWS Data Analytics, Python, face recognition, AI and Robotics. Effective team lead with a flair for content creation and tech article writing.
+
+%-----------EDUCATION-----------------
+% Education
+\vspace{-5pt}
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {Vellore Institute of Technology, Chennai}{Chennai, India}
+  {Bachelor of Technology - CSE with Spec. in AI and Robotics}{2021 - 2025}
+  \resumeSubheading
+  {Vidhyalakshmi CBSE School}{Vellore, India}
+  {Higher secondary and Senior Secondary}{2017 - 2021}
+\resumeSubHeadingListEnd
+
+%-----------Courses and Accomplishments-----------------
+% Courses and Accomplishments
+\vspace{-15pt}
+\section{Courses and Accomplishments}
+\begin{description}[font=$\bullet$]
+\item\href{https://www.cloudskillsboost.google/public_profiles/eafa8665-f78e-4c0b-9854-f91af38cc5a4}{Google Cloud Product}
+\vspace{-8pt}
+  \item\href{https://www.hackerrank.com/certificates/9295d4e55ac5}{3 star in Python - HackerRank}
+  \vspace{-8pt}
+\item\href{https://www.coursera.org/account/accomplishments/verify/2WWSDTSPDD6F}{Getting Started with Data Analytics on AWS}
+\vspace{-8pt}
+\item\href{https://www.coursera.org/account/accomplishments/verify/UC3XM3FLBJ7V}{Interfacing with the Arduino by University of California, Irvine}
+\end{description}
+
+%-----------SKILLS-----------------
+% Skill
+\vspace{-20pt}
+\section{Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{Programming}{Python (Advanced), C, C++, Java, R, Go}
+  \resumeSubItem{Database}{MySQL, MongoDB, Oracle}
+  \resumeSubItem{Cloud Platforms}{Google Cloud Platform, Microsoft Azure}
+  \resumeSubItem{Machine Learning}{TensorFlow, Scikit-learn (Intermediate)}
+  \resumeSubItem{IoT}{Arduino, NodeMCU, Raspberry pi}
+  \resumeSubItem{Tools}{ArduinoIDE, Overleaf, VS Code, Notion, Git, Figma, Sketch, Premier Pro, Blender, Photoshop}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+% Projects
+\vspace{-20pt}
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeSubItem{IoT Weather Station}{Created an Internet of Things (IoT) weather station  using Arduino and integrated sensor to collect real-time weather data such as temperature, humidity and atmospheric pressure.}
+  \resumeSubItem{Robotic Arm Controller}{Designed and programmed an Arduino-based robotic arm with multiple degree of freedom. Developed a user-friendly interface to control the arm's movements and implemented features such as gripper control and object manipulation}
+\resumeSubHeadingListEnd
+
+%-----------Languages-----------------
+% Languages
+\vspace{-20pt}
+\section{Languages}
+\resumeSubHeadingListStart
+  \textbf{{English}\hspace{15pt}{Tamil}\hspace{15pt}{Telugu}}
+
+
+\end{document}
